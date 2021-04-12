@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate for PadhegaIndia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <header>
+        <img src="./icon.png" alt="Purple Heart">
+        <h4>Get your 2021 BangBangCon Ticket</h4>
+    </header>
+    <main>
+
+        <label for="name">Type Your Name Here !!</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder=" Your Name " id="name" minlength="3"
+            maxlength="30">
+        <Button id="submitBtn">Get Your Ticket</Button>
+
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
